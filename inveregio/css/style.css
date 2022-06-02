@@ -119,11 +119,37 @@ a {
     letter-spacing: 2px;
     padding: 15px 30px;
     border: 1px solid white;
-    border-radius: 3px;
+    border-radius: px;
     cursor: pointer;
 }
 
-.site-btn:hover {
+.site-btn2 {
+    color: var(--main-color);
+    text-align: center;
+    min-width: 170px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 15px 30px;
+    border: 1px solid var(--main-color);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.site-btn3 {
+    color: white;
+    text-align: center;
+    min-width: 170px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 15px 30px;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.site-btn:hover,
+.site-btn2:hover,
+.site-btn3:hover {
     color: var(--btn-hover);
     border: 1px solid var(--btn-hover);
 }
@@ -292,17 +318,121 @@ a {
 
 .project-1 {
     background-image: linear-gradient(
-        0deg,
-        rgba(0, 0, 0, 0.021),
-        rgba(0, 0, 0, 0)
-    ),
+        180deg, 
+        rgba(0,0,0,0.01) 0%,
+        rgba(0,0,0,0.5) 100%),
     url("../img/oficinas/aurum.jpg");
+}
+
+.project-2 {
+    background-image: linear-gradient(
+        180deg, 
+        rgba(0,0,0,0.01) 0%,
+        rgba(0,0,0,0.5) 100%),
+    url("../img/oficinas/torre_civica.jpg");
+}
+
+.project-3 {
+    background-image: linear-gradient(
+        180deg, 
+        rgba(0,0,0,0.01) 0%,
+        rgba(0,0,0,0.5) 100%),
+    url("../img/oficinas/quadrat.jpg");
+}
+
+.project-4 {
+    background-image: linear-gradient(
+        180deg, 
+        rgba(0,0,0,0.01) 0%,
+        rgba(0,0,0,0.5) 100%),
+    url("../img/oficinas/boca_villa_comercial.jpg");
 }
 
 .propertie-info {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    padding: 30px 30px 20px 30px;
     position: absolute;
     bottom: 0;
+}
+
+.propertie-info h5 {
+    color: white;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.propertie-info p {
+    color: white;
+    margin: 0;
+}
+
+.propertie-info p i {
+    color: var(--main-color);
+    margin-right: 5px;
+}
+
+.propertie-info .price div {
+    background-color: var(--main-color);
+    color: white;
+    padding: 12px;
+    text-align: center;
+    border-radius: 2px;
+}
+
+.container-vermas {
+    display: flex;
+    justify-content: center;
+}
+
+/* -------------------------
+    Service Section
+ -------------------------*/
+
+.services-section {
+    background-image: url(../img/services-bg.jpg);
+}
+
+.services-section .section-title h3 {
+    color: white;
+}
+
+.container-services {
+    display: flex;
+}
+
+.service-item {
+    display: grid;
+    grid-template-columns: auto 390px;
+    margin-left: 90px;
+}
+
+.service-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-color);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 24px;
+}
+
+.service-icon i {
+    color: white;
+    font-size: 35px;
+}
+
+.service-text h5{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.service-text p {
+    color: #cccccc;
+    margin: 0;
+    text-align: justify;
 }
