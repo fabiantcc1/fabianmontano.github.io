@@ -552,3 +552,36 @@ a {
     color: white;
     font-size: 18px;
 }
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin-top: 65px;
+    padding-top: 30px;
+    border-top: 1px solid #324a4e;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: right;
+}
+
+.footer-nav ul {
+    display: flex;
+}
+.footer-nav ul li a {
+    color: #cccccc;
+    display: flex;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.footer-nav ul li a:hover {
+    color: white;
+}
+
+.footer-copyright .copyright-text p{
+    margin-top: 0;
+    font-size: 12px;
+}
