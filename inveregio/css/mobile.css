@@ -1,0 +1,114 @@
+/* ------------------------
+    header
+-------------------------*/
+
+.header-top-left {
+    display: none;
+}
+
+.header-top-right {
+    justify-content: center;
+}
+
+.header-top-right .web-language a:nth-child(1) {
+    border-left: none;
+}
+
+.header-bottom .container .logo {
+    width: 60px;
+}
+
+.hamburger-nav {
+    display: block;
+}
+
+.navbar-container {
+    display: none;
+}
+
+/* ------------------------
+    Hero Section
+-------------------------*/
+
+.hero-section {
+    height: auto;
+}
+
+.hero-text {
+    padding-top: 250px;
+}
+
+.hero-text .item-3 {
+    font-size: 2rem;
+}
+
+.hero-btn-container .site-btn {
+    z-index: -1;
+}
+
+/* ------------------------
+    Properties Section
+-------------------------*/
+
+.container-projects {
+    grid-template-columns: auto;
+}
+
+.propertie-info {
+    flex-direction: column;
+}
+
+/* ------------------------
+    Services Section
+-------------------------*/
+
+.container-services {
+    flex-direction: column;
+}
+
+.service-item {
+    margin: 0;
+    grid-template-columns: auto auto;
+}
+
+.contact-info p {
+    font-size: 16px;
+}
+
+.contact-info p span {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact-info p span:nth-child(1) {
+    display: block;
+    margin-right: 0;
+    margin-bottom: 10px;
+}
+
+/* ------------------------
+    Footer Section
+-------------------------*/
+
+.footer-text-container {
+    flex-direction: column;
+}
+
+.footer-text-container .footer-widget {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.footer-bottom {
+    flex-direction: column;
+}
+
+.footer-nav {
+    justify-content: center;
+    margin-bottom: 8px;
+}
+
+.footer-copyright {
+    display: flex;
+    justify-content: center;
+}

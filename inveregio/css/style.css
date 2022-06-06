@@ -91,6 +91,7 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;
+    overflow: hidden;
 }
 
 .mt-5 {
@@ -234,6 +235,9 @@ a {
 
 .hamburger-nav {
     display: none;
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
 }
 
 .navbar {
@@ -263,6 +267,8 @@ a {
 }
 
 .hero-text {
+    display: flex;
+    justify-content: center;
     text-align: center;
     padding-top: 320px;
     text-shadow: 2px 2px 3px black;
@@ -275,7 +281,7 @@ a {
     width: 50%;
     font-size: 3.6em;
     font-weight: 400;
-    margin: auto;
+    text-align: center;
     text-transform: uppercase;
 }
 
@@ -366,6 +372,7 @@ a {
 .propertie-info p {
     color: white;
     margin: 0;
+    margin-bottom: 8px;
 }
 
 .propertie-info p i {
@@ -434,6 +441,7 @@ a {
 .service-text p {
     color: #cccccc;
     margin: 0;
+    margin-bottom: 8px;
     text-align: justify;
 }
 
@@ -459,10 +467,11 @@ a {
     font-size: 22px;
     margin: 0;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .contact-info p span a {
-    color: white;   
+    color: white; 
 }
 
 .contact-info p span:nth-child(1) {
@@ -480,7 +489,6 @@ a {
 
 .footer-text-container {
     display: flex;
-    flex-wrap: wrap;
 }
 
 .footer-widget {
