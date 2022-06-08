@@ -1,0 +1,61 @@
+.container {
+    max-width: 720px;
+}
+
+/* -------------------------
+    header
+ -------------------------*/
+
+.header-top .container{
+    justify-content: space-between;
+}
+
+.header-top-left,
+.header-top-right {
+    width: auto;
+}
+
+/* ------------------------
+    Hero Section
+-------------------------*/
+
+.hero-text .item-3 {
+    font-size: 3rem;
+}
+
+/* ------------------------
+    Properties Section
+-------------------------*/
+
+.propertie-info {
+    flex-direction: column;
+}
+
+/* ------------------------
+    Services Section
+-------------------------*/
+
+.container-services {
+    flex-direction: column;
+}
+
+.service-item {
+    width: 100%;
+    margin: 0;
+    grid-template-columns: auto auto;
+}
+
+.contact-info p {
+    font-size: 16px;
+}
+
+.contact-info p span {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact-info p span:nth-child(1) {
+    display: block;
+    margin-right: 0;
+    margin-bottom: 10px;
+}

@@ -410,8 +410,9 @@ a {
 }
 
 .service-item {
+    width: 50%;
     display: grid;
-    grid-template-columns: auto 390px;
+    grid-template-columns: auto auto;
     margin-left: 90px;
 }
 

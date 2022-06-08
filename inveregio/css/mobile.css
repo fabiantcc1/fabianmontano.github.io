@@ -67,6 +67,7 @@
 }
 
 .service-item {
+    width: 100%;
     margin: 0;
     grid-template-columns: auto auto;
 }
