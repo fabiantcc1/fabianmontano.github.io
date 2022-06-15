@@ -1,0 +1,10 @@
+.main-container {
+    height: 100vh;
+}
+
+.form-retiro {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1020px;
+    margin: 0 40px;
+}

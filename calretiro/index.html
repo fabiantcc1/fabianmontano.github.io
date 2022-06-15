@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/tablet.css" media="screen and (min-width: 768px)">
+    <link rel="stylesheet" href="./css/desktop.css" media="screen and (min-width: 968px)">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>Calculadora de Retiro</title>
+</head>
+<body>
+    <main>
+        <section>
+            <div class="main-container">
+                <div class="form-retiro">
+                    <div class="form-container">
+                        <div class="container">
+                            <!-- <div class="header-container">
+                                <div class="circle1"></div>
+                                <div class="circle2"></div>
+                            </div> -->
+
+                            <div class="header-container">
+                                <h1>CALCULA TU RETIRO</h1>
+                                <p>Tener una meta clara para tu retiro, te ayuadá a saber cuanto dinero exactamente destinarás para tu meta.</p>
+                            </div>
+                            <form action="" class="form-retiro-input">
+                                <div class="label-form">
+                                    <label for="inputMontoMensual">Ingresa el monto mensual con el que desear vivir:</label>
+                                </div>
+                                <input type="number" placeholder="$1,600" id="inputMontoMensual">
+            
+                                <div class="label-form">
+                                    <label for="inputEdadRetiro">Ingresa la edad en la que te quieres retirar:</label>
+                                </div>
+                                <input type="number" placeholder="50 años" id="inputEdadRetiro">
+            
+                                <div class="label-form">
+                                    <label for="inputEdadActual">Ingresa tu edad actual:</label>
+                                </div>
+                                <input type="number" placeholder="30 años" id="inputEdadActual">
+            
+                                <div class="label-form">
+                                    <label for="inputEdadExpectativa">Ingresa tu expectativa de vida:</label>
+                                </div>
+                                <input type="number" placeholder="90 años" id="inputEdadExpectativa">
+                                <label class="error-input-oculto input-edad-expectativa">Ingresa todos los datos</label>
+        
+                                <button type="button" onclick="calcularMontosParaRetiro()" class="primary-button calcular-retiro-button">CALCULAR</button>
+                            </form>
+                        </div>
+                    </div>
+                        
+    
+                    <div class="resultado-container">
+                        <div class="container">
+                            <div class="monto">
+                                <h5>Monto Necesario para el Retiro</h5>
+                                <p id="montoTotal"></p>
+                            </div>
+                            
+                            <div class="monto">
+                                <h5>Monto Semanal</h5>
+                                <p id="montoSemanal"></p>
+                            </div>
+        
+                            <div class="monto">
+                                <h5>Monto Quincenal</h5>
+                                <p id="montoQuincenal"></p>
+                            </div>
+        
+                            <div class="monto">
+                                <h5>Mensual</h5>
+                                <p id="montoMensual"></p>
+                            </div>
+        
+                            <div class="monto">
+                                <h5>Monto Anual</h5>
+                                <p id="montoAnual"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="./currencyConvertor.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
