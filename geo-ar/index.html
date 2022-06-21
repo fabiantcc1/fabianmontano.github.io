@@ -71,11 +71,11 @@
                     look-at="[gps-camera]"
                     animation-mixer="loop: repeat"
                     gltf-model="#animated-asset"
-                    scale="0.036427200830097844 0.036427200830097844 0.036427200830097844"
+                    scale="0.9 0.9 0.9"
                     gps-entity-place="latitude: 19.87422651890203; longitude: -98.95698391349994;"
                 ></a-entity>
 
-            <a-camera gps-camera rotation-reader></a-camera>
+            <a-camera gps-camera rotation-reader arjs-look-controls='smoothingFactor: 0.1' look-controls-enabled='false'></a-camera>
         </a-scene>
     </body>
 </html>
