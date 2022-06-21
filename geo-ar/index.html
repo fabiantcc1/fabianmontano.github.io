@@ -56,6 +56,7 @@
     <body style="margin: 0; overflow: hidden;">
         <a-scene
             renderer="logarithmicDepthBuffer: true;"
+            vr-mode-ui="enabled: false"
             embedded
             loading-screen="enabled: false;"
             arjs="sourceType: webcam; videoTexture: true; debugUIEnabled: false;"
@@ -73,7 +74,6 @@
                     gltf-model="#animated-asset"
                     scale="0.7 0.7 0.7"
                     gps-entity-place="latitude: 19.87401366250682; longitude: -98.95702899891049;"
-                    position="0 1 0"
                 ></a-entity>
 
             <a-camera gps-camera rotation-reader look-controls-enabled='false' arjs-look-controls='smoothingFactor: 0.05'></a-camera>
