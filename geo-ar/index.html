@@ -1,4 +1,4 @@
-<!-- <!doctype html>
+<!doctype html>
 <html>
     <head>
         <meta charset="utf-8" />
@@ -27,7 +27,7 @@
                     look-at="[gps-camera]"
                     animation-mixer="loop: repeat"
                     gltf-model="#animated-asset"
-                    scale="3.5 3.5 3.5"
+                    scale="3 3 3"
                     gps-entity-place="latitude: 19.87430437383383; longitude: -98.96041519275198;"
                     position="0 2275 0"
                 ></a-entity>
@@ -35,52 +35,4 @@
             <a-camera gps-camera rotation-reader look-controls-enabled='false' arjs-look-controls='smoothingFactor: 0.1'></a-camera>
         </a-scene>
     </body>
-</html> -->
-
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>GeoAR.js demo</title>
-    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
-    <script src="https://raw.githack.com/jeromeetienne/AR.js/master/aframe/build/aframe-ar.min.js"></script>
-    <script src="https://raw.githack.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
-    <script>
-        THREEx.ArToolkitContext.baseURL = 'https://raw.githack.com/jeromeetienne/ar.js/master/three.js/'
-    </script>
-</head>
-
-<body style='margin: 0; overflow: visible;'>
-    <a-scene
-        gps-camera-debug
-        vr-mode-ui="enabled: false"
-		embedded
-        arjs='sourceType: webcam; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960; debugUIEnabled: false;'>
-        
-        <a-assets>
-            <a-asset-item
-                id="animated-asset"
-                src="assets/scene.gltf"
-            ></a-asset-item>
-        </a-assets>
-
-        <a-entity 
-            look-at="[gps-camera]"
-            animation-mixer="loop: repeat"
-            gltf-model="#animated-asset"
-            rotation="0 180 0"
-            scale="0.3 0.3 0.3"
-            gps-entity-place="longitude: 19.8742989; latitude: -98.9570107;"
-            animation-mixer
-        />
-        
-        <a-camera
-            gps-camera
-            rotation-reader
-        ></a-camera>
-
-        
-
-	</a-scene>
-</body>
+</html>
