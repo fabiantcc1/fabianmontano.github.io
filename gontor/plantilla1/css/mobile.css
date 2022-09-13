@@ -1,0 +1,136 @@
+/* ------------------
+ Header
+-------------------*/
+header {
+    height: 160px;
+}
+
+.nav-news {
+    padding: 0 30px;
+    font-size: 3.7rem;
+    letter-spacing: 6px;
+}
+
+/* ------------------
+ Boletin Section
+-------------------*/
+.boletin-section {
+    grid-template-columns: 1fr;
+}
+
+.boletin__item {
+    width: 90%;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.boletin-item__image {
+    width: 100%;
+    height: 150px;
+}
+
+.boletin-item__description {
+    width: 100%;
+}
+
+.boletin-item__description p {
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+/* --------------------------------
+ Boletin Section > Archivo Section
+---------------------------------*/
+.archivo-container {
+    grid-template-rows: auto auto;
+}
+
+.recent-documents {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.recent-documents__title {
+    font-size: 1.8rem;
+}
+
+.document-previewer {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: 1fr;
+}
+
+.doc-type-icon {
+    top: 122px;
+    left: 8px;
+}
+
+.document-data {
+    padding: 15px 20px;
+}
+
+.document-preview {
+    height: 150px;
+    border-right: none;
+    border-bottom: 1px solid #dddddd;
+}
+
+/* -----------------------------------
+ Boletin Section > File System Section
+------------------------------------*/
+.file-system__container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.file-system__container table {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.file-system__title {
+    font-size: 1.8rem;
+}
+
+.table__left {
+    width: auto;
+}
+
+/* ------------------
+ Features Section
+-------------------*/
+.features-container {
+    row-gap: 32px;
+}
+
+.features__item p {
+    font-size: 1.3rem;
+}
+
+.features-container {    
+    max-width: 400px;
+}
+
+/* ------------------
+ Footer
+-------------------*/
+.social-container {
+    padding: 40px 0;
+}
+
+.social__content {
+    max-width: 400px;
+}
+
+.social__item {
+    width: 50px;
+    height: 50px;
+}
+
+.social__item i {
+    padding: 0 5px;
+    font-size: 3.2rem;
+    line-height: 50px;
+}
