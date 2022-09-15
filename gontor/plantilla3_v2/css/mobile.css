@@ -1,0 +1,53 @@
+/* ------------------
+ Header
+-------------------*/
+header {
+    height: 160px;
+}
+
+.nav-news {
+    padding: 0 30px;
+    font-size: 3.7rem;
+    letter-spacing: 6px;
+}
+
+/* ------------------
+ Reading Section
+-------------------*/
+.reading-content {
+    width: 90%;
+}
+
+/* ------------------
+ Hero Section
+-------------------*/
+.hero__text {
+    font-size: 3.6rem;
+    line-height: 4.3rem;
+}
+
+.hero__text strong {
+    font-size: 3.9rem;
+}
+
+/* ------------------
+ Footer
+-------------------*/
+.social-container {
+    padding: 40px 0;
+}
+
+.social__content {
+    max-width: 400px;
+}
+
+.social__item {
+    width: 50px;
+    height: 50px;
+}
+
+.social__item i {
+    padding: 0 5px;
+    font-size: 3.2rem;
+    line-height: 50px;
+}
