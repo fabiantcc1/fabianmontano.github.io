@@ -1,0 +1,75 @@
+/* ------------------
+ Header
+-------------------*/
+header {
+    height: 160px;
+}
+
+.nav-news {
+    padding: 0 30px;
+    font-size: 3.7rem;
+    letter-spacing: 6px;
+}
+
+/* ------------------
+ Reading Section
+-------------------*/
+.reading-section {
+    padding: 98px 0 80px;
+}
+
+.reading-content {
+    width: 90%;
+}
+
+/* ------------------
+ Hero Section
+-------------------*/
+.hero-section {
+    height: 300px;
+}
+
+.hero__text {
+    width: 288px;
+    height: 92px;
+    padding: 17px;
+    font-size: 1.7rem;
+    line-height: 1.8rem;
+    top: calc(100% - 46px);
+    left: calc(50% - 144px);
+}
+
+.hero__text strong {
+    font-size: 2.2rem;
+}
+
+/* ------------------
+ Footer
+-------------------*/
+.social-container {
+    padding: 40px 0;
+}
+
+.social__content {
+    max-width: 400px;
+}
+
+.social__item {
+    width: 50px;
+    height: 50px;
+}
+
+.social__item i {
+    padding: 0 5px;
+    font-size: 3.2rem;
+    line-height: 50px;
+}
+
+@media (min-width: 520px){
+    .hero__text {
+        width: 420px;
+        height: 92px;
+        top: calc(100% - 46px);
+        left: calc(50% - 210px);
+    }
+}
