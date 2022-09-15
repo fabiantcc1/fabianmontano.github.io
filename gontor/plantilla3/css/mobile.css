@@ -65,11 +65,25 @@ header {
     line-height: 50px;
 }
 
+@media (min-width: 350px){
+    .hero__text {
+        width: 328px;
+        height: 99px;
+        font-size: 2.0rem;
+        line-height: 2.1rem;
+        top: calc(100% - 46px);
+        left: calc(50% - 164px);
+    }
+
+    .hero__text strong {
+        font-size: 2.6rem;
+    }
+}
+
 @media (min-width: 520px){
     .hero__text {
-        width: 420px;
-        height: 92px;
+        width: 390px;
         top: calc(100% - 46px);
-        left: calc(50% - 210px);
+        left: calc(50% - 195px);
     }
 }
