@@ -18,10 +18,6 @@ nav {
 /* ------------------
  Reading Section
 -------------------*/
-.reading-section {
-    padding: 98px 0 80px;
-}
-
 .reading-content {
     width: 90%;
 }
@@ -29,22 +25,20 @@ nav {
 /* ------------------
  Hero Section
 -------------------*/
-.hero-section {
-    height: 300px;
+.hero__content {
+    grid-template-columns: auto 30px;
+    width: 300px;
 }
 
 .hero__text {
-    width: 288px;
-    height: 92px;
-    padding: 17px;
-    font-size: 1.7rem;
-    line-height: 1.8rem;
-    top: calc(100% - 46px);
-    left: calc(50% - 144px);
+    margin-left: 50px;
+    padding: 32px 0;
+    font-size: 2.7rem;
+    line-height: 2.9rem;
 }
 
 .hero__text strong {
-    font-size: 2.2rem;
+    font-size: 3.5rem;
 }
 
 /* ------------------
@@ -69,25 +63,23 @@ nav {
     line-height: 50px;
 }
 
-@media (min-width: 350px){
+@media (min-width: 426px) {
+    /* ------------------
+    Hero Section
+    -------------------*/
+    .hero__content {
+        grid-template-columns: auto 35px;
+        width: 400px;
+    }
+
     .hero__text {
-        width: 328px;
-        height: 99px;
-        font-size: 2.0rem;
-        line-height: 2.1rem;
-        top: calc(100% - 46px);
-        left: calc(50% - 164px);
+        margin-left: 80px;
+        padding: 32px 0;
+        font-size: 3.5rem;
+        line-height: 3.7rem;
     }
 
     .hero__text strong {
-        font-size: 2.6rem;
-    }
-}
-
-@media (min-width: 520px){
-    .hero__text {
-        width: 390px;
-        top: calc(100% - 46px);
-        left: calc(50% - 195px);
+        font-size: 4.5rem;
     }
 }

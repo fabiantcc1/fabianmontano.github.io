@@ -1,0 +1,82 @@
+/* ------------------
+ Header
+-------------------*/
+header {
+    height: 190px;
+}
+
+nav {
+    width: 224px;
+}
+
+.nav-news {
+    padding: 0 20px;
+    font-size: 3.7rem;
+    letter-spacing: 6px;
+}
+
+/* ------------------
+ Article Section
+-------------------*/
+.article--odd {
+    grid-template-columns: 1fr;
+    grid-template-rows: 360px auto;
+}
+
+.article--even {
+    grid-template-columns: 1fr;
+    grid-template-rows: 360px auto;
+}
+
+.article--even .article__space {
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+}
+
+.article--even .article__content {
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+}
+
+.article__space {
+    background-position: center;
+}
+
+.article__info {
+    padding: 54px 0;
+}
+
+.article__title {
+    font-size: 2.5rem;
+    line-height: 2.6rem;
+}
+
+.article__title strong {
+    font-size: 3.7rem;
+}
+
+.btn-primary {
+    font-size: 1.8rem;
+}
+
+/* ------------------
+ Footer
+-------------------*/
+.social-container {
+    padding: 40px 0;
+}
+
+.social__content {
+    max-width: 400px;
+}
+
+.social__item {
+    width: 50px;
+    height: 50px;
+}
+
+.social__item i {
+    padding: 0 5px;
+    font-size: 3.2rem;
+    line-height: 50px;
+}

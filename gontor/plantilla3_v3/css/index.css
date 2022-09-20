@@ -62,26 +62,41 @@ nav img{
 -------------------*/
 .hero-section {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     width: 100%;
     min-width: 320px;
     height: 500px;
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../src/images/image_1.jpg);
+    background-image: url(../src/images/image_1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
+.hero__content {
+    display: grid;
+    grid-template-columns: auto 52px;
+    width: 550px;
+    background-color: rgba(48, 48, 48, 0.8);
+}
+
 .hero__text {
+    margin-left: 100px;
+    padding: 32px;
     font-size: 4.2rem;
     line-height: 4.2rem;
-    text-align: center;
+    text-align: left;
     color: var(--white);
 }
 
 .hero__text strong {
-    font-size: 5.5rem;
+    font-size: 5.0rem;
+}
+
+.hero__block {
+    width: 100%;
+    height: auto;
+    background: var(--orange-gontor);
 }
 
 /* ------------------

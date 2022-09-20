@@ -2,11 +2,15 @@
  Header
 -------------------*/
 header {
-    height: 160px;
+    height: 190px;
+}
+
+nav {
+    width: 224px;
 }
 
 .nav-news {
-    padding: 0 30px;
+    padding: 0 20px;
     font-size: 3.7rem;
     letter-spacing: 6px;
 }
@@ -101,9 +105,7 @@ header {
 /* ------------------
  Features Section
 -------------------*/
-.features-container {
-    row-gap: 32px;
-}
+
 
 .features__item p {
     font-size: 1.3rem;
@@ -133,4 +135,10 @@ header {
     padding: 0 5px;
     font-size: 3.2rem;
     line-height: 50px;
+}
+
+@media (min-width: 385px) and (max-width: 420px){
+    .features-container {
+        column-gap: 0;
+    }
 }

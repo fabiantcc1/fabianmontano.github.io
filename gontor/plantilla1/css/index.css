@@ -29,7 +29,6 @@ a{
     text-decoration: none;
 }
 
-
 /* ------------------
  Header
 -------------------*/
@@ -39,8 +38,12 @@ header {
     align-items: center;
     width: 100%;
     min-width: 320px;
-    height: 210px;
+    height: 235px;
     background-color: var(--brown-header);
+}
+
+nav img{
+    margin-bottom: 12px;
 }
 
 .nav-news {
@@ -251,6 +254,7 @@ tr td a:hover {
 -------------------*/
 .features-section {
     width: 100%;
+    min-width: 320px;
     height: auto;
     background-color: var(--brown-features);
 }
@@ -260,6 +264,7 @@ tr td a:hover {
     justify-content: center;
     flex-wrap: wrap;
     gap: 14px;
+    row-gap: 32px;
     max-width: 1120px;
     margin: 0 auto;
     padding: 50px 0 38px;
@@ -313,6 +318,7 @@ tr td a:hover {
 -------------------*/
 .social-container {
     width: 100%;
+    min-width: 320px;
     height: auto;
     padding: 80px 0;
 }

@@ -1,0 +1,42 @@
+/* ------------------
+ Boletin Section
+-------------------*/
+.boletin-section {
+    grid-template-columns: 1fr;
+}
+
+.boletin__item {
+    width: 90%;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.boletin-item__image {
+    width: 100%;
+    height: 150px;
+}
+
+.boletin-item__description {
+    width: 100%;
+}
+
+.boletin-item__description p {
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+/* --------------------------------
+ Boletin Section > Archivo Section
+---------------------------------*/
+.recent-documents {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* -----------------------------------
+ Boletin Section > File System Section
+------------------------------------*/
+.file-system__container {
+    width: 90%;
+    margin: 0 auto;
+}

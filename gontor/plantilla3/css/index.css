@@ -30,7 +30,6 @@ a{
     text-decoration: none;
 }
 
-
 /* ------------------
  Header
 -------------------*/
@@ -40,7 +39,7 @@ header {
     align-items: center;
     width: 100%;
     min-width: 320px;
-    height: 210px;
+    height: 235px;
     background-color: var(--brown-header);
 }
 
@@ -98,7 +97,7 @@ nav img{
     font-family: 'Poppins', sans-serif;
     width: 100%;
     min-width: 320px;
-    padding: 150px 0 80px;
+    padding: 150px 0 90px;
 }
 
 .reading-container {
@@ -205,6 +204,7 @@ nav img{
 -------------------*/
 .social-container {
     width: 100%;
+    min-width: 320px;
     height: auto;
     padding: 80px 0;
 }
